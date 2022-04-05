@@ -9,7 +9,6 @@ const input = []
 rl.on("line", function(line) {
     input.push(line)
 }).on("close", function() {
-
     const arr = input.map(Number)
     const maxN = Math.max(...arr)
 
